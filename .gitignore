@@ -1,0 +1,11 @@
+# Arquivos e pastas a serem ignorados pelo Git
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+.idea/
+.vscode/
+*.log
