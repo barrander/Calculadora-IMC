@@ -1,0 +1,49 @@
+# Calculadora de IMC (Índice de Massa Corporal)
+
+Pequena aplicação desenvolvida em **Python** para calcular o IMC e classificar o resultado conforme as faixas da Organização Mundial da Saúde (OMS).
+
+---
+
+# Funcionalidades
+
+- Cálculo do IMC (peso / altura²)
+- Classificação do IMC conforme o resultado
+- Tratamento de valores inválidos
+
+---
+
+# Tecnologias Utilizadas
+
+- Python 3.x  
+- Pytest  
+- Pytest-Cov  
+
+---
+
+# Regras de Negócio Testadas
+
+1. O IMC é calculado por: `IMC = peso / (altura ** 2)`
+2. IMC < 18.5 → **Abaixo do peso**
+3. 18.5 ≤ IMC < 25 → **Peso normal**
+4. 25 ≤ IMC < 30 → **Sobrepeso**
+5. IMC ≥ 30 → **Obesidade**
+6. Peso e altura devem ser **positivos**, caso contrário deve ser lançada uma exceção.
+
+---
+
+# Como Executar os Testes
+
+1. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+
+
+---
+
+# Autor
+
+Projeto desenvolvido por Anderson Victor Oliveira de Barros
+Disciplina: Qualidade de Software
+Curso: Sitemas Para Internet
+Turma: P5A Noite
+UNIESP 2025
